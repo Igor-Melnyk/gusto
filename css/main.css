@@ -1,23 +1,14 @@
-@font-face {
-    font-family: "HelveticaNeue";
-    src: url("../fonts/MyriadProRegular/HelveticaNeueCyr-Medium.otf");
-}
-
 .clr {
     clear: both;
 }
-
 body {
     padding: 0;
     margin: 0;
-    font-family: "HelveticaNeue", sans-serif;
-}
-
-a {
-    text-decoration: none;
     font-family: 'Open Sans', sans-serif;
 }
-
+a {
+    text-decoration: none;
+}
 ul, li {
     margin: 0;
     padding: 0;
@@ -25,7 +16,6 @@ ul, li {
 a:hover {
     text-decoration: underline;
 }
-
 p {
     margin: 0;
     padding: 0;
@@ -38,17 +28,14 @@ p {
 header {
     background: #e1e1e1;
 }
-
 .header-content {
     background: #53545e;
     padding: 35px 30px;
 }
-
 .logo {
     float: left;
     background: url(../img/logo.jpg) 0 5px no-repeat;
 }
-
 .logo > a {
     padding: 0 0 3px 57px;
     text-transform: uppercase;
@@ -56,30 +43,23 @@ header {
     font-weight: bold;
     color: #fff;
 }
-
 .logo a > span {
     color: #7e7f88;
 }
-
 .logo a:hover {
     text-decoration: none;
 }
-
 .header-text {
     float: right;
 }
-
 .header-text > p {
-    font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     font-weight: bold;
     color: #f1f1f1;
 }
-
 .header-text > p > a {
     color: #a6a7b0;
 }
-
 .main-content {
     background: #f1f1f1;
 }
@@ -88,24 +68,18 @@ header {
     font-size: 14px;
     color: #bfc0c3;
 }
-
 .main-content > .wrapper {
     padding: 30px;
     background: #fff;
 }
-
-.item {}
-
 .item > img,
 .blog > img {
     width: 100%;
 }
-
 .bottom-line {
     border-bottom: 1px solid #eaeaea;
     margin-bottom: 30px;
 }
-
 .blog {
     border-bottom: 1px solid #eaeaea;
 }
@@ -113,12 +87,10 @@ header {
 .blog:last-child {
     border-bottom: 0;
 }
-
 .h2 {
     display: inline-block;
     margin: 15px 0;
     text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: bold;
     color: #53545e;
@@ -144,11 +116,9 @@ header {
     padding-bottom: 30px;
     border-bottom: 1px solid #eaeaea;
 }
-
 .add-space > a > img {
     width: 100%;
 }
-
 footer {
     background: #e1e1e1;
 }
@@ -156,7 +126,6 @@ footer {
 footer > .wrapper {
     padding: 30px;
 }
-
 .saty-connected {
     background: #f1f1f1;
 }
